@@ -1,0 +1,20 @@
+Question 1: 
+    What is the difference between var and let?
+Ans:
+    The main difference with var and let is that with var, you can reassign, redeclare, mutate and var also follows the function scope. With let, you cannot redeclare the variable and it also follows a block scope.
+
+Question 2:
+    What is the difference between var and const?
+Ans:
+    With const, you cannot reassign or redeclare unlike with var. Const also follows the block scope format.
+
+Question 3:
+    What is the difference between let and const?
+Ans:
+    The main difference between let and const is that with let you can reassign, however with const you cannot.
+
+Question 4:
+    What is hoisting?
+Ans:
+    Hoisting is how JavaScript compiler works. JavaScript will read some codes like function and var as if they are the first in the codebase, whereas, codes like const or let have to be in an order with their callback functions.
+
