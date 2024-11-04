@@ -82,8 +82,9 @@ placeInTable(y, x) {
     piece.style.backgroundColor = this.currPlayer.color;
     piece.style.top = -50 * (y + 2);
 
-    const spot = document.getElementById (`${y}-${x}`);
+    const spot = document.getElementById (`${x}-${y}`);
     spot.append(piece);
+    
 }
 
 // Announcing end of game
